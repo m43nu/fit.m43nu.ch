@@ -54,7 +54,7 @@ module.exports = {
         description: `Simple Crossfit & Fitness Workouts to do at home, inspired by COMPTRAIN.`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#b91d47`,
         display: `standalone`,
         icons: [
           {
