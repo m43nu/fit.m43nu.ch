@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `HomeFit`,
+    siteTitleAlt: `HomeFit - m43nu`,
+    siteUrl: `https://fit.m43nu.ch`,
+    author: `@m43nu`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    siteDescription: `Simple Crossfit & Fitness Workouts to do at home, inspired by COMPTRAIN.`,
+    siteHeadline: `HomeFit Blog by m43nu`,
   },
   plugins: [
     {
@@ -23,11 +30,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/m43nu`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/m43nu/`,
           },
         ],
       },
@@ -42,9 +49,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `HomeFit by m43nu`,
+        short_name: `home-fit-m43nu`,
+        description: `Simple Crossfit & Fitness Workouts to do at home, inspired by COMPTRAIN.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
