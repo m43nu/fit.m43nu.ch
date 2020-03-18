@@ -50,7 +50,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `HomeFit by m43nu`,
-        short_name: `home-fit-m43nu`,
+        short_name: `HomeFit`,
         description: `Simple Crossfit & Fitness Workouts to do at home, inspired by COMPTRAIN.`,
         start_url: `/`,
         background_color: `#fff`,
