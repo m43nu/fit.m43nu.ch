@@ -36,6 +36,10 @@ module.exports = {
             name: `Instagram`,
             url: `https://www.instagram.com/m43nu/`,
           },
+          {
+            name: `Email`,
+            url: `mailto:hello@m43nu.ch`,
+          },
         ],
       },
     },
